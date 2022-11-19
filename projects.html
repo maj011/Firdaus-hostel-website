@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3cf5ae42e7.js" crossorigin="anonymous"></script>
+
+    <title>Firdaus Hostel</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Undertaken Projects</h1>
+    </section>
+
+    <!-- projects section -->
+    <section class="course">
+        <h1>Our Projects</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quia.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Save Aid</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Asperiores iusto incidunt perspiciatis inventore culpa eaque reiciendis dolorum explicabo quis nobis!
+                </p>
+            </div>
+
+            <div class="course-col">
+                <h3>Shelter House</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Asperiores iusto incidunt perspiciatis inventore culpa eaque reiciendis dolorum explicabo quis nobis!
+                </p>
+            </div>
+
+            <div class="course-col">
+                <h3>Outreach</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Asperiores iusto incidunt perspiciatis inventore culpa eaque reiciendis dolorum explicabo quis nobis!
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ---------Facilities--------- -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quia!</p>
+    
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./images/legon_library.jpg" alt="">
+                <h3>Balme Library</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, dolore.</p>
+            </div>
+    
+            <div class="facilities-col">
+                <img src="./images/legon_pool.jpg" alt="">
+                <h3>Intertaining Poolside</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, dolore.</p>
+            </div>
+    
+            <div class="facilities-col">
+                <img src="./images/legon_stadium.jpg" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, dolore.</p>
+            </div>
+    
+        </div>
+    </section>
+    
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum corporis dolore vitae? Atque, quidem. Dolorem minima facere quae ipsa <br> 
+        quidem ducimus explicabo vitae dolor cumque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod, et.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart" style="color: #f44336"> </i> by Moro Abdul-Jamiu</p>
+</section>
+
+
+<!-- JavaScript for toggle menu -->
+
+<script>
+     let navLinks = document.getElementById("navLinks"); 
+
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+     }
+
+</script>
+
+</body>
+</html>
